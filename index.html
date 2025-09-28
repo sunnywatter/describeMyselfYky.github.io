@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="个人作品集与博客" />
+    <title>柳贯一 · 个人网站</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">跳到内容</a>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#home" class="logo" aria-label="主页">柳贯一</a>
+        <nav class="nav" aria-label="主导航">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">菜单</button>
+          <ul id="primary-menu" class="nav-list">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="https://github.com/sunnywatter" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="#contact">联系</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="section hero">
+        <div class="container hero-inner">
+            <div class="hero-media" aria-hidden="true">
+            <div class="avatar parallax" data-parallax-depth="20" role="img" aria-label="头像">柳贯一</div>
+          </div>
+          <div class="hero-content">
+            <h1 class="hero-title reveal" data-delay="0.0"><span class="gradient-text">计算机科学在读大三</span>学生（备考研究生）</h1>
+            <p class="hero-subtitle reveal" data-delay="0.08">关注前端与人机交互，热爱把想法做成可用产品；目前专注课程学习与项目实践，持续打磨基础与工程能力。</p>
+            <div class="hero-actions reveal" data-delay="0.16">
+              <a class="btn btn-primary" href="#projects">查看我的作品</a>
+              <a class="btn btn-ghost" href="#contact">联系我</a>
+            </div>
+            <ul class="tag-list reveal" data-delay="0.24" aria-label="关键技能">
+              <li class="tag">HTML/CSS</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">React</li>
+              <li class="tag">学习能力</li>
+              <li class="tag">自驱成长</li>
+            </ul>
+          </div>
+        </div>
+        <canvas id="hero-bg" class="hero-bg" aria-hidden="true"></canvas>
+      </section>
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-head">
+            <h2>关于我</h2>
+            <p class="section-desc">用真实的故事与价值观建立连接</p>
+          </div>
+          <section class="about-carousel reveal" data-delay="0.05" id="about-carousel" aria-label="个人介绍轮播">
+            <div class="ac-viewport" tabindex="0" aria-roledescription="carousel">
+              <div class="ac-track">
+                <article class="ac-slide" aria-roledescription="slide" aria-label="1 / 6">
+                  <h3 class="ac-title">热忱的创造者，终身学习的践行者</h3>
+                  <p class="ac-lead">以技术为笔，用作品表达想法；在持续迭代中打磨更好的自己。</p>
+                </article>
+                <article class="ac-slide" aria-roledescription="slide" aria-label="2 / 6">
+                  <h4 class="ac-sub">摘要</h4>
+                  <p>我相信代码能创造真实价值。把抽象想法转化为具体方案，是我最享受的过程。学习—实践—复盘的循环，让我保持长期主义与自驱力。</p>
+                </article>
+                <article class="ac-slide" aria-roledescription="slide" aria-label="3 / 6">
+                  <h4 class="ac-sub">一、技术深耕：全栈开发与系统架构</h4>
+                  <p>后端聚焦 Spring Boot 与 REST 设计，关注可扩展与性能；积累了数据库优化、缓存策略、分布式设计经验。</p>
+                  <p>前端熟练运用 Vue 3 组合式 API，重视交互与一致性体验，形成前后端分离的完整知识体系；参与算法竞赛（如 CCPC），锻炼严谨与解题能力。</p>
+                </article>
+                <article class="ac-slide" aria-roledescription="slide" aria-label="4 / 6">
+                  <h4 class="ac-sub">二、项目实践：从概念到产品</h4>
+                  <p>独立完成两款小程序：即时通讯（云开发）与第三方 API 智能服务。从需求到上线，完成技术选型、性能优化与用户反馈迭代。</p>
+                  <p>带队完成省级创创项目，负责架构与推进，取得 2 项软著，沉淀工程协作与风险把控能力。</p>
+                </article>
+                <article class="ac-slide" aria-roledescription="slide" aria-label="5 / 6">
+                  <h4 class="ac-sub">三、技术社区与持续成长</h4>
+                  <p>创立校内算法社团，组织分享与维护管理小程序；坚持写博客，系统化沉淀项目经验与技术思考。</p>
+                </article>
+                <article class="ac-slide" aria-roledescription="slide" aria-label="6 / 6">
+                  <h4 class="ac-sub">四、职业愿景与价值追求</h4>
+                  <p>期望加入重视创新与卓越的团队，用全栈能力与架构思维解决真实问题。持续精进，以人文关怀与商业意识构建可靠的工程价值。</p>
+                </article>
+              </div>
+            </div>
+            <div class="ac-dots" role="tablist" aria-label="轮播分页"></div>
+            <button class="ac-arrow prev" aria-label="上一页" type="button">‹</button>
+            <button class="ac-arrow next" aria-label="下一页" type="button">›</button>
+          </section>
+          <div class="about-grid reveal-stagger" data-stagger=".about-story,.about-skills,.about-fun" data-delay="0.1">
+            <article class="about-story">
+            <h3>我的介绍</h3>
+              <p>我是柳贯一，目前是计算机专业大三学生，正在备考研究生。喜欢把知识转化为作品，用项目驱动学习。</p>
+              <p>我关注前端体验与交互细节，正在系统打磨数据结构、计算机网络、操作系统与数据库等基础课。</p>
+              <div class="about-actions">
+                <a class="btn btn-primary" href="assets/docs/resume.pdf" target="_blank" rel="noopener">下载我的简历（PDF）</a>
+              </div>
+            </article>
+            <aside class="about-skills">
+              <h3>技能与专长（在学/实践）</h3>
+              <ul class="skills">
+                <li>
+                  <div class="skill-row">
+                    <span>HTML/CSS/JS</span>
+                    <span>中级</span>
+                  </div>
+                  <div class="bar"><span style="width: 85%"></span></div>
+                </li>
+                <li>
+                  <div class="skill-row">
+                    <span>React 基础</span>
+                    <span>在学</span>
+                  </div>
+                  <div class="bar"><span style="width: 80%"></span></div>
+                </li>
+                <li>
+                  <div class="skill-row">
+                    <span>算法与数据结构</span>
+                    <span>在学</span>
+                  </div>
+                  <div class="bar"><span style="width: 75%"></span></div>
+                </li>
+              </ul>
+            </aside>
+            <aside class="about-fun">
+              <h3>个人兴趣</h3>
+              <ul class="fun-list">
+                <li>长期记录学习笔记与项目复盘</li>
+                <li>喜欢研究交互动画与界面细节</li>
+                <li>跑步与音乐爱好者</li>
+              </ul>
+            </aside>
+          </div>
+          
+        </div>
+      </section>
+      
+      <section class="section github-cta" id="github">
+        <div class="container">
+          <div class="github-card">
+            <div class="gh-left">
+              <h2 class="gh-title">前往 GitHub</h2>
+              <p class="gh-desc">浏览我的代码世界与项目实践，了解我正在做什么。</p>
+            </div>
+            <div class="gh-right">
+              <a class="gh-button" href="https://github.com/sunnywatter" target="_blank" rel="noopener" aria-label="打开 GitHub：sunnywatter">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.793 23.39c.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.41-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.64.24 2.86.12 3.16.77.84 1.24 1.91 1.24 3.22 0 4.62-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22 0 1.61-.02 2.91-.02 3.31 0 .32.21.69.82.57A12 12 0 0 0 12 .5z"/></svg>
+                <span>sunnywatter</span>
+                <svg class="arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M5 12h12M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-head">
+            <h2>联系我</h2>
+            <p class="section-desc">很高兴认识你，欢迎交流合作</p>
+          </div>
+          <div class="contact-grid">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-row">
+                <label for="name">你的名字</label>
+                <input id="name" name="name" type="text" placeholder="张三" required />
+              </div>
+              <div class="form-row">
+                <label for="email">邮箱</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-row">
+                <label for="message">留言</label>
+                <textarea id="message" name="message" rows="5" placeholder="简单介绍下你的需求或想法…" required></textarea>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">发送</button>
+                <button type="button" class="btn btn-ghost" id="mailto-btn">邮件联系</button>
+              </div>
+            </form>
+            <aside class="contact-aside">
+              <h3>其他方式</h3>
+              <ul class="contact-list">
+                <li>
+                  <span>邮箱</span>
+                  <a href="mailto:you@example.com">you@example.com</a>
+                </li>
+                <li>
+                  <span>预约洽谈</span>
+                  <a href="#" target="_blank" rel="noopener">Calendly</a>
+                </li>
+                <li class="socials">
+                  <a aria-label="LinkedIn" href="#" target="_blank" rel="noopener" class="icon-link">
+                    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.025-3.037-1.852-3.037-1.853 0-2.136 1.447-2.136 2.943v5.663H9.352V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.368-1.85 3.602 0 4.268 2.371 4.268 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM6.961 20.452H3.714V9h3.247v11.452z"/></svg>
+                  </a>
+                  <a aria-label="GitHub" href="https://github.com/sunnywatter" target="_blank" rel="noopener" class="icon-link">
+                    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.793 23.39c.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.41-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.64.24 2.86.12 3.16.77.84 1.24 1.91 1.24 3.22 0 4.62-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22 0 1.61-.02 2.91-.02 3.31 0 .32.21.69.82.57A12 12 0 0 0 12 .5z"/></svg>
+                  </a>
+                  <a aria-label="Behance" href="#" target="_blank" rel="noopener" class="icon-link">
+                    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M8.64 10.59s1.19-.09 1.19-1.49S8.31 7.41 7 7.41H3.5v9.18H7s3.1.1 3.1-2.88c0 0 .1-2.02-1.46-2.12zm-2.9-2.02h1.1s.97 0 .97 1.02-.57 1.16-1.21 1.16H5.74V8.57zM6.94 15.2H5.74v-2.7H7s1.42-.06 1.42 1.37-.87 1.33-1.48 1.33zM17.17 10.45c-2.52 0-2.53 2.52-2.53 2.52s-.17 2.5 2.53 2.5c0 0 2.25.13 2.25-1.75h-1.13s.04.75-1.08.75c0 0-1.18.07-1.18-1.22h3.43s.34-2.8-2.29-2.8zm1.02 2.07h-2.09s.16-1.18 1.12-1.18  .97 1.18.97 1.18zM14.75 7.57h3.56v.85h-3.56v-.85z"/></svg>
+                  </a>
+                  <a aria-label="X" href="#" target="_blank" rel="noopener" class="icon-link">
+                    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M18.244 2H21l-6.27 7.168L22 22h-6.59l-4.77-6.228L4.9 22H2.143l6.73-7.69L2 2h6.75l4.32 5.77L18.244 2zm-2.31 18h2.02L8.18 4H6.07l9.864 16z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="copyright">© <span id="year"></span> 柳贯一</div>
+        <nav class="footer-nav" aria-label="页脚导航">
+          <a href="#home">首页</a>
+          <a href="#about">关于我</a>
+          <a href="https://github.com/sunnywatter" target="_blank" rel="noopener">GitHub</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </div>
+    </footer>
+    <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-dialog" role="document">
+        <button class="modal-close" aria-label="关闭" data-close>&times;</button>
+        <h3 id="modal-title">项目详情</h3>
+        <div class="modal-body">
+          <div class="modal-media"></div>
+          <div class="modal-content">
+            <p>在这里展示更详细的项目信息、图片或视频。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+  </html>
+
+
